@@ -1,0 +1,81 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    max-width: 430px;
+    width: 100%;
+}
+
+.form__title {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.form__text {
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.form__login {
+    font-weight: 600;
+    color: #0c21c1;
+    margin-left: 5px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-bottom: 36px;
+}
+
+.form__label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #999;
+}
+
+.form__input-wrapper {
+    position: relative;
+}
+
+.form__input {
+    outline: none;
+    padding: 7px 0 7px 27px;
+    border-bottom: 2px solid #999;
+    width: 100%;
+}
+
+.form__input:focus {
+    border-bottom: 2px solid #000842;
+}
+
+.form__input::placeholder {
+    font-size: 16px;
+    color: #000842;
+}
+
+.form__icon {
+    position: absolute;
+    top: 3px;
+}
+
+.form__button {
+    border-radius: 32px;
+    box-shadow: 0 4px 26px 0 rgba(0, 0, 0, 0.25);
+    background: #0c21c1;
+    border: none;
+    cursor: pointer;
+    padding: 13px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    transition: transform 0.155s ease;
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
